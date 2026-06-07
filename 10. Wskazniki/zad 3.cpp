@@ -47,12 +47,10 @@ int main()
         cin >> *wskaznikModyfikacji; 
         wskaznikModyfikacji++; 
     }
-    cout << "----------------------------------------" << endl;
 
     
     cout << "Zmodyfikowana zawartosc tablicy: ";
     WyswietlTablice(tablica, rozmiar);
-
     int nowaSuma = ObliczSume(tablica, rozmiar);
     cout << "Nowa suma elementow tablicy: " << nowaSuma << endl;
 
